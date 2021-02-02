@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Test Cases",
+      "setup": "pip3 install coverage",
+      "run": "curl -o script_lab4 https://raw.githubusercontent.com/jjohn163/example/main/Labs/Lab04/script_lab4; chmod 755 script_lab4; ./script_lab4",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}
