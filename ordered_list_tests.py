@@ -87,6 +87,14 @@ class TestLab4(unittest.TestCase):
         t_list = OrderedList()
         self.assertEqual(t_list.python_list(), [])
         self.assertEqual(t_list.python_list_reversed(), [])
+    
+    # Used to troubleshoot an issue with the tail not getting reassigned when removing nodes
+    def test_OrderedList_7(self):
+        t_list = OrderedList()
+        t_list.add(3)
+        t_list.add(2)
+        t_list.remove(3)
+        t_list.remove(2)
         
 
 

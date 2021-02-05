@@ -73,7 +73,7 @@ class OrderedList:
             self.head = self.head.next
         elif item == self.tail.item:    # Special case for removing tail
             self.tail.prev.next = None
-            self.tail == self.tail.prev
+            self.tail = self.tail.prev
         else: 
             current = self.head
             i = 0
