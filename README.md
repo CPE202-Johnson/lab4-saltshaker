@@ -2,6 +2,6 @@
 
 Name: Patrick Salter
 
-Progress: In progress
+Progress: Completed
 
 Partner: Josh Simpson
